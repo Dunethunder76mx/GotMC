@@ -13,7 +13,7 @@ public class GoTArmor extends CreativeTabs
 	public GoTArmor(String label) { super("gotarmor");
 	 }
 
-	public ItemStack getTabIconItem() {return new ItemStack(ModItems.DRAGONGLASS_DAGGER);
+	public ItemStack getTabIconItem() {return new ItemStack(ModItems.DRAGONSTONE_CHAINMAIL_HELMET);
 	}
 	
 }
