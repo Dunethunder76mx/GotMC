@@ -67,6 +67,9 @@ public class ModItems
 	
 	//Armor
 	public static final Item DRAGONSTONE_CHAINMAIL_HELMET = new ArmorBase("dragonstone_chainmail_helmet", DRAGONSTONE_CHAINMAIL, 1, EntityEquipmentSlot.HEAD);
+	public static final Item DRAGONSTONE_CHAINMAIL_CHESTPLATE = new ArmorBase("dragonstone_chainmail_chestplate", DRAGONSTONE_CHAINMAIL, 1, EntityEquipmentSlot.CHEST);
+	public static final Item DRAGONSTONE_CHAINMAIL_LEGGINGS = new ArmorBase("dragonstone_chainmail_leggings", DRAGONSTONE_CHAINMAIL, 1, EntityEquipmentSlot.LEGS);
+	public static final Item DRAGONSTONE_CHAINMAIL_BOOTS = new ArmorBase("dragonstone_chainmail_boots", DRAGONSTONE_CHAINMAIL, 1, EntityEquipmentSlot.FEET);
 	
 	//Daggers,Rapiers
 	public static final ToolStoryDagger DRAGONGLASS_DAGGER = new ToolStoryDagger("dragonglass_dagger", MATERIAL_DRAGONGLASS);
