@@ -4,4 +4,6 @@ public interface IHasModel
 
 {
 public void registerModels();
+
+void initModel();
 }

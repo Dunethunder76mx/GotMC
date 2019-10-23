@@ -58,6 +58,12 @@ public class ArmorBase extends ItemArmor implements IHasModel
 		
 		return null;
 	}
+
+	@Override
+	public void initModel() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 	

@@ -31,4 +31,10 @@ public class BlockBase extends Block implements IHasModel
 		Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
 		
 	}
+
+	@Override
+	public void initModel() {
+		// TODO Auto-generated method stub
+		
+	}
 }

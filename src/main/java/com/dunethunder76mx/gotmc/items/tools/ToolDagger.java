@@ -33,4 +33,10 @@ public class ToolDagger extends ItemAxe implements IHasModel
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
 			
 		}
+
+		@Override
+		public void initModel() {
+			// TODO Auto-generated method stub
+			
+		}
 }

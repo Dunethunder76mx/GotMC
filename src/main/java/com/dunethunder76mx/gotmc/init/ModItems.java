@@ -6,9 +6,12 @@ import java.util.List;
 import com.dunethunder76mx.gotmc.items.ItemBase;
 import com.dunethunder76mx.gotmc.items.MiscBase;
 import com.dunethunder76mx.gotmc.items.armor.ArmorBase;
+import com.dunethunder76mx.gotmc.items.armor.ItemDragonstoneChainmailArmor;
 import com.dunethunder76mx.gotmc.items.food.FoodBase;
 import com.dunethunder76mx.gotmc.items.food.SoupBase;
 import com.dunethunder76mx.gotmc.items.food.StoneSoupBase;
+import com.dunethunder76mx.gotmc.items.models.ModelArmorBase;
+import com.dunethunder76mx.gotmc.items.models.ModelDragonstoneChainmailArmor;
 import com.dunethunder76mx.gotmc.items.tools.ToolAxe;
 import com.dunethunder76mx.gotmc.items.tools.ToolBattleaxe;
 import com.dunethunder76mx.gotmc.items.tools.ToolDagger;
@@ -66,10 +69,10 @@ public class ModItems
 	public static final Item STONE_BOWL = new MiscBase ("stone_bowl");
 	
 	//Armor
-	public static final Item DRAGONSTONE_CHAINMAIL_HELMET = new ArmorBase("dragonstone_chainmail_helmet", DRAGONSTONE_CHAINMAIL, 1, EntityEquipmentSlot.HEAD);
-	public static final Item DRAGONSTONE_CHAINMAIL_CHESTPLATE = new ArmorBase("dragonstone_chainmail_chestplate", DRAGONSTONE_CHAINMAIL, 1, EntityEquipmentSlot.CHEST);
-	public static final Item DRAGONSTONE_CHAINMAIL_LEGGINGS = new ArmorBase("dragonstone_chainmail_leggings", DRAGONSTONE_CHAINMAIL, 1, EntityEquipmentSlot.LEGS);
-	public static final Item DRAGONSTONE_CHAINMAIL_BOOTS = new ArmorBase("dragonstone_chainmail_boots", DRAGONSTONE_CHAINMAIL, 1, EntityEquipmentSlot.FEET);
+	public static final ItemDragonstoneChainmailArmor DRAGONSTONE_CHAINMAIL_HELMET = new ItemDragonstoneChainmailArmor(DRAGONSTONE_CHAINMAIL, EntityEquipmentSlot.HEAD, null);
+	public static final ItemDragonstoneChainmailArmor DRAGONSTONE_CHAINMAIL_CHESTPLATE = new ItemDragonstoneChainmailArmor(DRAGONSTONE_CHAINMAIL, EntityEquipmentSlot.CHEST, null);
+	public static final ItemDragonstoneChainmailArmor DRAGONSTONE_CHAINMAIL_LEGGINGS = new ItemDragonstoneChainmailArmor(DRAGONSTONE_CHAINMAIL, EntityEquipmentSlot.LEGS, null);
+	public static final ItemDragonstoneChainmailArmor DRAGONSTONE_CHAINMAIL_BOOTS = new ItemDragonstoneChainmailArmor(DRAGONSTONE_CHAINMAIL, EntityEquipmentSlot.FEET, null);
 	
 	//Daggers,Rapiers
 	public static final ToolStoryDagger DRAGONGLASS_DAGGER = new ToolStoryDagger("dragonglass_dagger", MATERIAL_DRAGONGLASS);
