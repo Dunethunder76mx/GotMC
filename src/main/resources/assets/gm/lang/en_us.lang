@@ -1,0 +1,70 @@
+//Materials
+item.dragonstone_steel_ingot.name=Dragonstone Steel Ingot
+item.dragonglass_shard.name=Dragonglass Shard
+item.chainmail_ring.name=Chainmail Ring
+item.chainmail_links.name=Chainmail Links
+
+//Item
+item.stone_bowl.name=Stone Bowl
+
+//Food
+item.plain_biscuit.name=Plain Biscuit
+item.sugar_biscuit.name=Biscuit with Sugar
+item.honeycake.name=Honeycake
+item.sugar_bread.name=Bread with Sugar
+item.bread_half.name=Bread Half
+item.bread_half_sugar.name=Bread Half with Sugar
+item.carrot_stew_wood.name=Carrot Stew
+item.carrot_stew_stone.name=Carrot Stew
+item.mushroom_stew_stone.name=Mushroom Stew
+item.beetroot_soup_stone.name=Beetroot Soup
+item.potato_stew_stone.name=Potato Stew
+item.potato_stew_wood.name=Potato Stew
+item.potato_carrot_stew_stone.name=Potato Carrot Stew
+item.potato_carrot_stew_wood.name=Potato Carrot Stew
+
+
+
+//Blocks
+tile.targaryan_brick_block.name=Dragonstone Brick
+tile.dragonstone_rock_block.name=Dragonstone Rock
+tile.dragonstone_pillar_block.name=Dragonstone Pillar
+tile.targaryan_carved_brick.name=Targaryan Carved Brick
+tile.dragonstone_carved_brick.name=Dragonstone Carved Brick
+//Daggers,Rapiers
+item.dragonglass_dagger.name=Dragonglass Dagger
+item.braavos_rapier.name=Braavosi Rapier
+item.catspaw_dagger.name=Catspaw Dagger
+//Swords
+item.needle.name=Needle
+item.dragonstone_steel_sword.name=Dragonstone Sword
+item.training_sword.name=Sparring Sword
+
+//Greatswords
+item.dragonstone_steel_longsword.name=Dragonstone Greatsword (Placeholder)
+
+//Battleaxes
+item.dragonstone_steel_battleaxe.name=Dragonstone Battleaxe
+item.iron_battleaxe.name=Iron Battleaxe
+item.training_battleaxe.name=Sparring Battleaxe
+//Pickaxes
+item.dragonstone_steel_pickaxe.name=Dragonstone Pickaxe
+
+//Axes
+item.dragonstone_steel_axe.name=Dragonstone Axe
+
+//Shovels
+item.dragonstone_steel_shovel.name=Dragonstone Shovel
+
+//Hoes
+item.dragonstone_steel_hoe.name=Dragonstone Hoe
+
+//Creative Tabs
+itemGroup.buildingblocks=GoT Building Blocks
+itemGroup.gotcombat=GoT Combat
+itemGroup.gotmaterials=GoT Materials
+itemGroup.gotstory=GoT Story
+itemGroup.gottools=GoT Tools
+itemGroup.gotarmor=GoT Armor
+itemGroup.gotfood=GoT Food
+itemGroup.gotitems=GoT Misc

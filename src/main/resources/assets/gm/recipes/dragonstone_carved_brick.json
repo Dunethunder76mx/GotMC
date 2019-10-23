@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "BBB",
+        "BDB",
+        "BBB"
+    ],
+   
+    "key":
+    {
+        "B":
+        {
+            "item": "gm:targaryan_brick_block"
+        },
+        "D":
+        {
+            "item": "minecraft:dye", "data":14
+        }
+    },
+   
+    "result":
+    {
+        "item": "gm:dragonstone_carved_brick",
+        "count": 1
+    }
+}

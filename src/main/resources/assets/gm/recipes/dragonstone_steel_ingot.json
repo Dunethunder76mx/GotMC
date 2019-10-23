@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "CCC",
+        "CIC",
+        "CCC"
+    ],
+   
+    "key":
+    {
+        "I":
+        {
+            "item": "minecraft:iron_ore"
+        },
+        "C":
+        {
+            "item": "minecraft:coal", "data":1
+        }
+    },
+   
+    "result":
+    {
+        "item": "gm:dragonstone_steel_ingot",
+        "count": 1
+    }
+}

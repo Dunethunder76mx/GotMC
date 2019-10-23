@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "   ",
+        "CC ",
+        " S "
+    ],
+   
+    "key":
+    {
+        "C":
+        {
+            "item": "minecraft:carrot"
+        },
+        "S":
+        {
+            "item": "gm:stone_bowl"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gm:carrot_stew_stone",
+        "count": 1
+    }
+}

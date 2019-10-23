@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "III",
+        "C C",
+        "   "
+    ],
+   
+    "key":
+    {
+        "C":
+        {
+            "item": "gm:chainmail_links"
+        },
+         "I":
+        {
+            "item": "minecraft:iron_ingot"
+        }
+        
+    },
+   
+    "result":
+    {
+        "item": "minecraft:chainmail_helmet",
+        "count": 1
+    }
+}

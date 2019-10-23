@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "   ",
+        " S ",
+        " W "
+    ],
+   
+    "key":
+    {
+        "W":
+        {
+            "item": "minecraft:wheat"
+        },
+        "S":
+        {
+            "item": "minecraft:sugar"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gm:honeycake",
+        "count": 1
+    }
+}

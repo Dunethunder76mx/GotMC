@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "DDD",
+        " S ",
+        " S "
+    ],
+   
+    "key":
+    {
+        "D":
+        {
+            "item": "gm:dragonstone_steel_ingot"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gm:dragonstone_steel_pickaxe",
+        "count": 1
+    }
+}

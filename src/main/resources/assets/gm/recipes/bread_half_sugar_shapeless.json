@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "gm:sugar_bread"
+    }
+
+    ],
+ 
+    "result":
+    {
+        "item": "gm:bread_half_sugar",
+        "count": 2
+    }
+}

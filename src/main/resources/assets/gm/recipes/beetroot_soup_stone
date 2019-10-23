@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "BBB",
+        "BBB",
+        " S "
+    ],
+   
+    "key":
+    {
+        "B":
+        {
+            "item": "minecraft:beetroot"
+        },
+        "S":
+        {
+            "item": "gm:stone_bowl"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gm:beetroot_soup_stone",
+        "count": 1
+    }
+}

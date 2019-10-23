@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "   ",
+        " S ",
+        " B "
+    ],
+   
+    "key":
+    {
+        "B":
+        {
+            "item": "gm:bread_half"
+        },
+        "S":
+        {
+            "item": "minecraft:sugar"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gm:bread_half_sugar",
+        "count": 1
+    }
+}

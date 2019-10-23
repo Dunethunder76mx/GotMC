@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "   ",
+        " S ",
+        " B "
+    ],
+   
+    "key":
+    {
+        "B":
+        {
+            "item": "gm:plain_biscuit"
+        },
+        "S":
+        {
+            "item": "minecraft:sugar"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gm:sugar_biscuit",
+        "count": 1
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "gm:dragonstone_rock_block"
+    },
+ 
+    {
+      "item": "gm:dragonstone_rock_block"
+    },
+    {
+      "item": "gm:dragonstone_rock_block"
+    },
+    {
+      "item": "gm:dragonstone_rock_block"
+    }
+    ],
+ 
+    "result":
+    {
+        "item": "gm:targaryan_brick_block",
+        "count": 4
+    }
+}

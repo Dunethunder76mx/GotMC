@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "   ",
+        " D ",
+        " S "
+    ],
+   
+    "key":
+    {
+        "D":
+        {
+            "item": "gm:dragonglass_shard"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gm:dragonglass_dagger",
+        "count": 1
+    }
+}

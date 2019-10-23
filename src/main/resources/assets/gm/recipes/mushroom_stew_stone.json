@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "   ",
+        "RB ",
+        " S "
+    ],
+   
+    "key":
+    {
+        "B":
+        {
+            "item": "minecraft:brown_mushroom"
+        },
+        "R":
+        {
+            "item": "minecraft:red_mushroom"
+        },
+        "S":
+        {
+            "item": "gm:stone_bowl"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gm:mushroom_stew_stone",
+        "count": 1
+    }
+}

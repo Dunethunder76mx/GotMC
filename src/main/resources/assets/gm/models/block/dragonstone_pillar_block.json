@@ -1,0 +1,11 @@
+{
+   "parent": "block/bedrock",
+   "textures": {
+       "up": "gm:blocks/dragonstone_pillar_block",
+       "down": "gm:blocks/dragonstone_pillar_block",
+       "south": "gm:blocks/dragonstone_pillar_side",
+       "north": "gm:blocks/dragonstone_pillar_side",
+       "west": "gm:blocks/dragonstone_pillar_side",
+       "east": "gm:blocks/dragonstone_pillar_side"
+   }
+}

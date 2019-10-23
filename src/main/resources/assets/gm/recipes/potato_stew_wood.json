@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "   ",
+        "PP ",
+        " S "
+    ],
+   
+    "key":
+    {
+        "P":
+        {
+            "item": "minecraft:potato"
+        },
+        "S":
+        {
+            "item": "minecraft:bowl"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gm:potato_stew_wood",
+        "count": 1
+    }
+}

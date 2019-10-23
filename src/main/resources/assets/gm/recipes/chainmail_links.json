@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "CCC",
+        "CCC",
+        "CCC"
+    ],
+   
+    "key":
+    {
+        "C":
+        {
+            "item": "gm:chainmail_ring"
+        }
+        
+    },
+   
+    "result":
+    {
+        "item": "gm:chainmail_links",
+        "count": 1
+    }
+}

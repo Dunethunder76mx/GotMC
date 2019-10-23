@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "   ",
+        "CP ",
+        " S "
+    ],
+   
+    "key":
+    {
+        "P":
+        {
+            "item": "minecraft:potato"
+        },
+        "C":
+        {
+            "item": "minecraft:carrot"
+        },
+        "S":
+        {
+            "item": "gm:stone_bowl"
+        }
+    },
+   
+    "result":
+    {
+        "item": "gm:potato_carrot_stew_stone",
+        "count": 1
+    }
+}
