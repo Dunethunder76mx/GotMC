@@ -69,10 +69,14 @@ public class ModItems
 	public static final Item STONE_BOWL = new MiscBase ("stone_bowl");
 	
 	//Armor
-	public static final ItemDragonstoneChainmailArmor DRAGONSTONE_CHAINMAIL_HELMET = new ItemDragonstoneChainmailArmor(DRAGONSTONE_CHAINMAIL, EntityEquipmentSlot.HEAD, "dragonstone_chainmail_helmet");
-	public static final ItemDragonstoneChainmailArmor DRAGONSTONE_CHAINMAIL_CHESTPLATE = new ItemDragonstoneChainmailArmor(DRAGONSTONE_CHAINMAIL, EntityEquipmentSlot.CHEST, "dragonstone_chainmail_chestplate");
-	public static final ItemDragonstoneChainmailArmor DRAGONSTONE_CHAINMAIL_LEGGINGS = new ItemDragonstoneChainmailArmor(DRAGONSTONE_CHAINMAIL, EntityEquipmentSlot.LEGS, "dragonstone_chainmail_leggings");
-	public static final ItemDragonstoneChainmailArmor DRAGONSTONE_CHAINMAIL_BOOTS = new ItemDragonstoneChainmailArmor(DRAGONSTONE_CHAINMAIL, EntityEquipmentSlot.FEET, "dragonstone_chainmail_boots");
+	
+	public static final ArmorBase DRAGONSTONE_CHAINMAIL_HELMET = new ArmorBase("dragonstone_chainmail_helmet", DRAGONSTONE_CHAINMAIL, 1, EntityEquipmentSlot.HEAD);
+	
+	//These are tests I was doing with the code I borrowed from another mod, no plans to make it in final release.
+	//public static final ItemDragonstoneChainmailArmor DRAGONSTONE_CHAINMAIL_HELMET = new ItemDragonstoneChainmailArmor(DRAGONSTONE_CHAINMAIL, EntityEquipmentSlot.HEAD, "dragonstone_chainmail_helmet");
+	//public static final ItemDragonstoneChainmailArmor DRAGONSTONE_CHAINMAIL_CHESTPLATE = new ItemDragonstoneChainmailArmor(DRAGONSTONE_CHAINMAIL, EntityEquipmentSlot.CHEST, "dragonstone_chainmail_chestplate");
+	//public static final ItemDragonstoneChainmailArmor DRAGONSTONE_CHAINMAIL_LEGGINGS = new ItemDragonstoneChainmailArmor(DRAGONSTONE_CHAINMAIL, EntityEquipmentSlot.LEGS, "dragonstone_chainmail_leggings");
+	//public static final ItemDragonstoneChainmailArmor DRAGONSTONE_CHAINMAIL_BOOTS = new ItemDragonstoneChainmailArmor(DRAGONSTONE_CHAINMAIL, EntityEquipmentSlot.FEET, "dragonstone_chainmail_boots");
 	
 	//Daggers,Rapiers
 	public static final ToolStoryDagger DRAGONGLASS_DAGGER = new ToolStoryDagger("dragonglass_dagger", MATERIAL_DRAGONGLASS);
