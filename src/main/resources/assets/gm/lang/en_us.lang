@@ -61,11 +61,11 @@ item.dragonstone_steel_shovel.name=Dragonstone Shovel
 item.dragonstone_steel_hoe.name=Dragonstone Hoe
 
 //Creative Tabs
-itemGroup.buildingblocks=GoT Building Blocks
-itemGroup.gotcombat=GoT Combat
-itemGroup.gotmaterials=GoT Materials
-itemGroup.gotstory=GoT Story
-itemGroup.gottools=GoT Tools
-itemGroup.gotarmor=GoT Armor
-itemGroup.gotfood=GoT Food
-itemGroup.gotitems=GoT Misc
+itemGroup.buildingblocks=Game of Thrones Building Blocks
+itemGroup.gotcombat=Game of Thrones Combat
+itemGroup.gotmaterials=Game of Thrones Materials
+itemGroup.gotstory=Game of Thrones Story
+itemGroup.gottools=Game of Thrones Tools
+itemGroup.gotarmor=Game of Thrones Armor
+itemGroup.gotfood=Game of Thrones Food
+itemGroup.gotitems=Game of Thrones Misc
