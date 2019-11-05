@@ -18,10 +18,10 @@ item.carrot_stew_wood.name=Carrot Stew
 item.carrot_stew_stone.name=Carrot Stew
 item.mushroom_stew_stone.name=Mushroom Stew
 item.beetroot_soup_stone.name=Beetroot Soup
-item.potato_stew_stone.name=Potato Stew
-item.potato_stew_wood.name=Potato Stew
-item.potato_carrot_stew_stone.name=Potato Carrot Stew
-item.potato_carrot_stew_wood.name=Potato Carrot Stew
+item.potato_stew_stone.name=Tater Stew
+item.potato_stew_wood.name=Tater Stew
+item.potato_carrot_stew_stone.name=Tater Carrot Stew
+item.potato_carrot_stew_wood.name=Tater Carrot Stew
 
 
 
