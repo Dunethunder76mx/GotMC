@@ -17,6 +17,7 @@ import com.dunethunder76mx.gotmc.items.tools.ToolHoe;
 import com.dunethunder76mx.gotmc.items.tools.ToolPickaxe;
 import com.dunethunder76mx.gotmc.items.tools.ToolSpade;
 import com.dunethunder76mx.gotmc.items.tools.ToolSword;
+import com.dunethunder76mx.gotmc.items.weaponbases.CatspawDagger;
 import com.dunethunder76mx.gotmc.items.weaponbases.Dragonsfire;
 import com.dunethunder76mx.gotmc.items.weaponbases.ToolBattleaxe;
 import com.dunethunder76mx.gotmc.items.weaponbases.ToolDagger;
@@ -83,7 +84,7 @@ public class ModItems
 	//Daggers,Rapiers
 	public static final ToolStoryDagger DRAGONGLASS_DAGGER = new ToolStoryDagger("dragonglass_dagger", MATERIAL_DRAGONGLASS);
 	public static final ItemAxe BRAAVOS_RAPIER = new ToolDagger("braavos_rapier", MATERIAL_DRAGONGLASS);
-	public static final ToolStoryDagger CATSPAW_DAGGER = new ToolStoryDagger("catspaw_dagger", MATERIAL_CATSPAW_DAGGER);
+	public static final CatspawDagger CATSPAW_DAGGER = new CatspawDagger("catspaw_dagger", MATERIAL_CATSPAW_DAGGER);
 	
 	//Swords
 	public static final ItemSword DRAGONSTONE_STEEL_SWORD = new ToolSword("dragonstone_steel_sword", MATERIAL_STEEL_INGOT);
