@@ -126,8 +126,8 @@ public class ModItems
 	public static final Item SUGAR_BISCUIT = new FoodBase("sugar_biscuit", 4, 5.5F, false);
 	public static final Item HONEYCAKE = new FoodBase("honeycake", 5, 5.5F, false);
 	public static final Item SUGAR_BREAD = new FoodBase("sugar_bread", 5, 6.5F, false);
-	public static final Item BREAD_HALF = new FoodBase("bread_half", 1, 4.5F, false);
-	public static final Item BREAD_HALF_SUGAR = new FoodBase("bread_half_sugar", 2, 5.0F, false);
+	public static final Item BREAD_HALF = new FoodBase("bread_half", 2, 4.5F, false);
+	public static final Item BREAD_HALF_SUGAR = new FoodBase("bread_half_sugar", 3, 5.0F, false);
 	public static final Item CARROT_STEW_WOOD = new SoupBase("carrot_stew_wood", 6, 5.0F, false);
 	public static final Item CARROT_STEW_STONE = new StoneSoupBase("carrot_stew_stone", 6, 5.0F, false);
 	public static final Item MUSHROOM_STEW_STONE = new StoneSoupBase("mushroom_stew_stone", 6, 5.0F, false);
@@ -136,7 +136,7 @@ public class ModItems
 	public static final Item POTATO_CARROT_STEW_WOOD = new SoupBase("potato_carrot_stew_wood", 7, 5.0F, false);
 	public static final Item POTATO_STEW_STONE = new StoneSoupBase("potato_stew_stone", 7, 5.0F, false);
 	public static final Item POTATO_CARROT_STEW_STONE = new StoneSoupBase("potato_carrot_stew_stone", 7, 5.0F, false);
-	public static final Item GREEN_APPLE = new FoodBase("green_apple", 2, 3.0F, false);
+	public static final Item GREEN_APPLE = new FoodBase("green_apple", 4, 4.0F, false);
 }
 
 
