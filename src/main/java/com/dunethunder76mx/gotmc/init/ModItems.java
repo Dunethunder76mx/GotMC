@@ -136,6 +136,7 @@ public class ModItems
 	public static final Item POTATO_CARROT_STEW_WOOD = new SoupBase("potato_carrot_stew_wood", 7, 5.0F, false);
 	public static final Item POTATO_STEW_STONE = new StoneSoupBase("potato_stew_stone", 7, 5.0F, false);
 	public static final Item POTATO_CARROT_STEW_STONE = new StoneSoupBase("potato_carrot_stew_stone", 7, 5.0F, false);
+	public static final Item GREEN_APPLE = new FoodBase("green_apple", 2, 3.0F, false);
 }
 
 
