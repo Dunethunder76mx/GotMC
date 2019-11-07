@@ -1,4 +1,4 @@
-package com.dunethunder76mx.gotmc.items.tools;
+package com.dunethunder76mx.gotmc.items.weaponbases;
 
 import com.dunethunder76mx.gotmc.Main;
 import com.dunethunder76mx.gotmc.init.ModItems;
@@ -7,17 +7,16 @@ import com.dunethunder76mx.gotmc.util.IHasModel;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemAxe;
 
-public class ToolStoryDagger extends ItemAxe implements IHasModel
+public class ToolTrainingBattleaxe extends ItemAxe implements IHasModel
 
 {
 
-	
-	public ToolStoryDagger(String name, ToolMaterial material)
+	public ToolTrainingBattleaxe(String name, ToolMaterial material)
 	{
-		super(material, 4.75F, -2.0F);
+		super(material, 4.0F, -3.2F);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(Main.gotstory);
+		setCreativeTab(Main.gotcombat);
 		
 		ModItems.ITEMS.add(this);
 		
@@ -36,4 +35,5 @@ public class ToolStoryDagger extends ItemAxe implements IHasModel
 		// TODO Auto-generated method stub
 		
 	}
+	
 }

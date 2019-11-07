@@ -1,4 +1,4 @@
-package com.dunethunder76mx.gotmc.items.tools;
+package com.dunethunder76mx.gotmc.items.weaponbases;
 
 import com.dunethunder76mx.gotmc.Main;
 import com.dunethunder76mx.gotmc.init.ModItems;

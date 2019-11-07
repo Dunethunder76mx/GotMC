@@ -1,23 +1,23 @@
-package com.dunethunder76mx.gotmc.items.tools;
+package com.dunethunder76mx.gotmc.items.weaponbases;
 
 import com.dunethunder76mx.gotmc.Main;
 import com.dunethunder76mx.gotmc.init.ModItems;
 import com.dunethunder76mx.gotmc.util.IHasModel;
 
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemAxe;
 
-public class ToolLongsword extends ItemAxe implements IHasModel
+public class ToolStoryDagger extends ItemAxe implements IHasModel
 
 {
 
-	public ToolLongsword(String name, ToolMaterial material)
+	
+	public ToolStoryDagger(String name, ToolMaterial material)
 	{
-		super(material, 7.5F, -2.8F);
+		super(material, 4.75F, -2.0F);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(Main.gotcombat);
+		setCreativeTab(Main.gotstory);
 		
 		ModItems.ITEMS.add(this);
 		
