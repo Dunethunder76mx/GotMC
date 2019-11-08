@@ -19,6 +19,7 @@ import com.dunethunder76mx.gotmc.items.tools.ToolSpade;
 import com.dunethunder76mx.gotmc.items.tools.ToolSword;
 import com.dunethunder76mx.gotmc.items.weaponbases.CatspawDagger;
 import com.dunethunder76mx.gotmc.items.weaponbases.Dragonsfire;
+import com.dunethunder76mx.gotmc.items.weaponbases.IceSpear;
 import com.dunethunder76mx.gotmc.items.weaponbases.ToolBattleaxe;
 import com.dunethunder76mx.gotmc.items.weaponbases.ToolDagger;
 import com.dunethunder76mx.gotmc.items.weaponbases.ToolIronBattleaxe;
@@ -49,14 +50,15 @@ public class ModItems
 	//Materials
 	public static final ToolMaterial MATERIAL_STEEL_INGOT = EnumHelper.addToolMaterial("material__steel_ingot", 2, 550, 6.5F, 3.0F, 14);
 	public static final ToolMaterial MATERIAL_NEEDLE = EnumHelper.addToolMaterial("material_needle", 2, 1200, 3.0F, 5.0F, 15);
-	public static final ToolMaterial MATERIAL_DRAGONGLASS = EnumHelper.addToolMaterial("material_dragonglass", 1, 75, 1.0F, 1.0F, 20);
+	public static final ToolMaterial MATERIAL_DRAGONGLASS = EnumHelper.addToolMaterial("material_dragonglass", 1, 25, 1.0F, 1.0F, 20);
 	public static final ToolMaterial MATERIAL_TRAINING = EnumHelper.addToolMaterial("material_training", 1, 450, 0.5F, -1.5F, 5);
 	public static final ToolMaterial MATERIAL_DRAGONSTONE_BATTLEAXE = EnumHelper.addToolMaterial("material_dragonstone_battleaxe", 0, 550, 1.5F, 2.0F, 14);
 	public static final ToolMaterial MATERIAL_DRAGONSTONE_LONGSWORD = EnumHelper.addToolMaterial("material_dragonstone_longsword", 0, 550, 1.0F, 2.0F, 14);
 	public static final ToolMaterial MATERIAL_BRAAVOS_RAPIER = EnumHelper.addToolMaterial("material_braavos_rapier", 0, 400, 1.0F, 2.0F, 14);
-	public static final ToolMaterial MATERIAL_CATSPAW_DAGGER = EnumHelper.addToolMaterial("matertial_catspaw_dagger", 0, 10000, 1.0F, 2.0F, 20);
+	public static final ToolMaterial MATERIAL_CATSPAW_DAGGER = EnumHelper.addToolMaterial("matertial_catspaw_dagger", 0, 15000, 1.0F, 2.0F, 20);
 	public static final ToolMaterial MATERIAL_IRON_BATTLEAXE = EnumHelper.addToolMaterial("material_iron_battleaxe", 0, 250, 1.5F, 2.0F, 14);
-	public static final ToolMaterial MATERIAL_DRAGONSFIRE = EnumHelper.addToolMaterial("matertial_dragonsfire", 0, 10000, 5.0F, 2.0F, 20);
+	public static final ToolMaterial MATERIAL_DRAGONSFIRE = EnumHelper.addToolMaterial("matertial_dragonsfire", 0, 15000, 5.0F, 2.0F, 20);
+	public static final ToolMaterial MATERIAL_WHITE_WALKER = EnumHelper.addToolMaterial("material_white_walker", 0, 10000, 5.0F, 2.0F, 20);
 	
 	
 	//Armor Materials
@@ -92,7 +94,7 @@ public class ModItems
 	public static final ItemSword TRAINING_SWORD = new ToolSword("training_sword", MATERIAL_TRAINING);
 	
 	//Spears
-	
+	public static final IceSpear WHITE_WALKER_SPEAR = new IceSpear("white_walker_spear", MATERIAL_TRAINING);
 	
 	//Greatswords (Yes I know I named the Dragonstone one a longsword I'm sorry)... (Not really)
 	public static final ToolLongsword DRAGONSTONE_STEEL_LONGSWORD = new ToolLongsword("dragonstone_steel_longsword", MATERIAL_DRAGONSTONE_LONGSWORD);
