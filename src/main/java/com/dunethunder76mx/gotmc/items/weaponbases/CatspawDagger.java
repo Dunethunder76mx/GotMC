@@ -14,7 +14,7 @@ public class CatspawDagger extends ItemAxe implements IHasModel
 	
 	public CatspawDagger(String name, ToolMaterial material)
 	{
-		super(material, 6.75F, -2.0F);
+		super(material, 6.5F, -2.0F);
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(Main.gotstory);
