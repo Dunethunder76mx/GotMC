@@ -27,7 +27,7 @@ public class StoneSoupBase extends ItemSoupCustom implements IHasModel
 
 	@Override
 	public void initModel() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 }

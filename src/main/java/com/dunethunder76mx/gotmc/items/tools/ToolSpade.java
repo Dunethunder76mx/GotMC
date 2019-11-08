@@ -34,7 +34,7 @@ public class ToolSpade extends ItemSpade implements IHasModel
 
 	@Override
 	public void initModel() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 

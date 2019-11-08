@@ -34,7 +34,7 @@ public class ToolPickaxe extends ItemPickaxe implements IHasModel
 
 	@Override
 	public void initModel() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 }

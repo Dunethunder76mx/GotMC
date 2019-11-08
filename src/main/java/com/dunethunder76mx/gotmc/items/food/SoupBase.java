@@ -30,7 +30,7 @@ public class SoupBase extends ItemSoup implements IHasModel
 
 	@Override
 	public void initModel() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 	

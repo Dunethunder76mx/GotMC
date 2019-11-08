@@ -33,7 +33,7 @@ public class ToolHoe extends ItemHoe implements IHasModel
 
 	@Override
 	public void initModel() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 }

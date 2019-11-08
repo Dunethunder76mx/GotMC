@@ -30,7 +30,7 @@ public class FoodBase extends ItemFood implements IHasModel
 
 	@Override
 	public void initModel() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 }

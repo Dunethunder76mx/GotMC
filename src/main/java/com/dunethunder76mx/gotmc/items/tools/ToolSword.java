@@ -34,7 +34,7 @@ public class ToolSword extends ItemSword implements IHasModel
 
 	@Override
 	public void initModel() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 

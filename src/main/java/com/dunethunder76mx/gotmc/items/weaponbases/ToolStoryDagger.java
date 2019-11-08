@@ -33,7 +33,7 @@ public class ToolStoryDagger extends ItemAxe implements IHasModel
 
 	@Override
 	public void initModel() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 }
