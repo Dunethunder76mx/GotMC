@@ -20,6 +20,7 @@ import com.dunethunder76mx.gotmc.items.tools.ToolSword;
 import com.dunethunder76mx.gotmc.items.weaponbases.CatspawDagger;
 import com.dunethunder76mx.gotmc.items.weaponbases.Dragonsfire;
 import com.dunethunder76mx.gotmc.items.weaponbases.IceSpear;
+import com.dunethunder76mx.gotmc.items.weaponbases.StorySword;
 import com.dunethunder76mx.gotmc.items.weaponbases.ToolBattleaxe;
 import com.dunethunder76mx.gotmc.items.weaponbases.ToolDagger;
 import com.dunethunder76mx.gotmc.items.weaponbases.ToolIronBattleaxe;
@@ -57,8 +58,9 @@ public class ModItems
 	public static final ToolMaterial MATERIAL_BRAAVOS_RAPIER = EnumHelper.addToolMaterial("material_braavos_rapier", 0, 400, 1.0F, 2.0F, 14);
 	public static final ToolMaterial MATERIAL_CATSPAW_DAGGER = EnumHelper.addToolMaterial("matertial_catspaw_dagger", 0, 15000, 1.0F, 2.0F, 20);
 	public static final ToolMaterial MATERIAL_IRON_BATTLEAXE = EnumHelper.addToolMaterial("material_iron_battleaxe", 0, 250, 1.5F, 2.0F, 14);
-	public static final ToolMaterial MATERIAL_DRAGONSFIRE = EnumHelper.addToolMaterial("matertial_dragonsfire", 0, 15000, 5.0F, 2.0F, 20);
-	public static final ToolMaterial MATERIAL_WHITE_WALKER = EnumHelper.addToolMaterial("material_white_walker", 0, 10000, 5.0F, 2.0F, 20);
+	public static final ToolMaterial MATERIAL_DRAGONSFIRE = EnumHelper.addToolMaterial("matertial_dragonsfire", 0, 15000, 1.0F, 2.0F, 22);
+	public static final ToolMaterial MATERIAL_WHITE_WALKER = EnumHelper.addToolMaterial("material_white_walker", 0, 10000, 1.0F, 2.0F, 22);
+	public static final ToolMaterial MATERIAL_DAWN = EnumHelper.addToolMaterial("material_dawn", 0, 7500, 1.0F, 2.0F, 22);
 	
 	
 	//Armor Materials
@@ -92,6 +94,7 @@ public class ModItems
 	public static final ItemSword DRAGONSTONE_STEEL_SWORD = new ToolSword("dragonstone_steel_sword", MATERIAL_STEEL_INGOT);
 	public static final ItemSword NEEDLE = new ToolStory("needle", MATERIAL_NEEDLE);
 	public static final ItemSword TRAINING_SWORD = new ToolSword("training_sword", MATERIAL_TRAINING);
+	public static final StorySword DAWN = new StorySword("dawn", MATERIAL_DAWN);
 	
 	//Spears
 	public static final IceSpear WHITE_WALKER_SPEAR = new IceSpear("white_walker_spear", MATERIAL_TRAINING);
