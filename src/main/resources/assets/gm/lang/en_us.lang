@@ -40,6 +40,7 @@ item.catspaw_dagger.name=Catspaw Dagger
 item.needle.name=Needle
 item.dragonstone_steel_sword.name=Dragonstone Sword
 item.training_sword.name=Sparring Sword
+item.dawn.name=Dawn
 
 //Spears
 item.white_walker_spear.name=Ice Spear

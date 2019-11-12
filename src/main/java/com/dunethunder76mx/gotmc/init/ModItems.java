@@ -92,7 +92,7 @@ public class ModItems
 	
 	//Swords
 	public static final ItemSword DRAGONSTONE_STEEL_SWORD = new ToolSword("dragonstone_steel_sword", MATERIAL_STEEL_INGOT);
-	public static final ItemSword NEEDLE = new ToolStory("needle", MATERIAL_NEEDLE);
+	public static final StorySword NEEDLE = new StorySword("needle", MATERIAL_NEEDLE);
 	public static final ItemSword TRAINING_SWORD = new ToolSword("training_sword", MATERIAL_TRAINING);
 	public static final StorySword DAWN = new StorySword("dawn", MATERIAL_DAWN);
 	
