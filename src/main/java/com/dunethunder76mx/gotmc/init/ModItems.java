@@ -20,6 +20,7 @@ import com.dunethunder76mx.gotmc.items.tools.ToolSword;
 import com.dunethunder76mx.gotmc.items.weaponbases.CatspawDagger;
 import com.dunethunder76mx.gotmc.items.weaponbases.Dragonsfire;
 import com.dunethunder76mx.gotmc.items.weaponbases.IceSpear;
+import com.dunethunder76mx.gotmc.items.weaponbases.StoryGreatsword;
 import com.dunethunder76mx.gotmc.items.weaponbases.StorySword;
 import com.dunethunder76mx.gotmc.items.weaponbases.ToolBattleaxe;
 import com.dunethunder76mx.gotmc.items.weaponbases.ToolDagger;
@@ -61,7 +62,7 @@ public class ModItems
 	public static final ToolMaterial MATERIAL_DRAGONSFIRE = EnumHelper.addToolMaterial("matertial_dragonsfire", 0, 15000, 1.0F, 2.0F, 22);
 	public static final ToolMaterial MATERIAL_WHITE_WALKER = EnumHelper.addToolMaterial("material_white_walker", 0, 10000, 1.0F, 2.0F, 22);
 	public static final ToolMaterial MATERIAL_DAWN = EnumHelper.addToolMaterial("material_dawn", 0, 7500, 1.0F, 2.0F, 22);
-	
+	public static final ToolMaterial MATERIAL_FORRESTER_GREATSWORD = EnumHelper.addToolMaterial("material_forrester_greatsword", 0, 15000, 1.0F, 2.0F, 22);
 	
 	//Armor Materials
 	public static final ArmorMaterial DRAGONSTONE_CHAINMAIL = EnumHelper.addArmorMaterial("dragonstone_chainmail", Reference.MOD_ID, 20, new int [] {7, 8, 8, 9} , 14, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 2.0f);
@@ -102,6 +103,7 @@ public class ModItems
 	//Greatswords (Yes I know I named the Dragonstone one a longsword I'm sorry)... (Not really)
 	public static final ToolLongsword DRAGONSTONE_STEEL_LONGSWORD = new ToolLongsword("dragonstone_steel_longsword", MATERIAL_DRAGONSTONE_LONGSWORD);
 	public static final Dragonsfire DRAGONSFIRE = new Dragonsfire("dragonsfire", MATERIAL_DRAGONSFIRE);
+	public static final StoryGreatsword forrester_greatsword = new StoryGreatsword("forrester_greatsword", MATERIAL_FORRESTER_GREATSWORD);
 	
 	//Pikes
 	
