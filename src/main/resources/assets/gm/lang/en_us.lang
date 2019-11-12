@@ -41,6 +41,9 @@ item.needle.name=Needle
 item.dragonstone_steel_sword.name=Dragonstone Sword
 item.training_sword.name=Sparring Sword
 
+//Spears
+item.white_walker_spear.name=Ice Spear
+
 //Greatswords
 item.dragonstone_steel_longsword.name=Dragonstone Greatsword (Placeholder)
 item.dragonsfire.name=Dragonsfire
