@@ -50,7 +50,7 @@ public class ModItems
 	public static final List<Item> ITEMS = new ArrayList<Item> ();
 	
 	//Materials
-	public static final ToolMaterial MATERIAL_STEEL_INGOT = EnumHelper.addToolMaterial("material__steel_ingot", 2, 550, 6.5F, 3.0F, 14);
+	public static final ToolMaterial MATERIAL_STEEL_INGOT = EnumHelper.addToolMaterial("material_steel_ingot", 2, 550, 6.5F, 3.0F, 14);
 	public static final ToolMaterial MATERIAL_NEEDLE = EnumHelper.addToolMaterial("material_needle", 2, 1200, 3.0F, 5.0F, 15);
 	public static final ToolMaterial MATERIAL_DRAGONGLASS = EnumHelper.addToolMaterial("material_dragonglass", 1, 25, 1.0F, 1.0F, 20);
 	public static final ToolMaterial MATERIAL_TRAINING = EnumHelper.addToolMaterial("material_training", 1, 450, 0.5F, -1.5F, 5);
